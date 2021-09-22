@@ -29,7 +29,7 @@ public class HotelSearchTest {
 
         driver.findElement(By.name("checkin")).sendKeys("16/09/2021");
         driver.findElement(By.name("checkout")).click();
-        driver.findElements(By.xpath("//td[@class='day ' and text()='21']"))
+        driver.findElements(By.xpath("//td[@class='day ' and text()='30']"))
                 .stream()
                 .filter(WebElement::isDisplayed)
                 .findFirst()
