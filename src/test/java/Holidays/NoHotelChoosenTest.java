@@ -34,7 +34,7 @@ public class NoHotelChoosenTest {
         driver.findElement(By.id("travellersInput")).click();
         driver.findElement(By.id("adultPlusBtn")).click();
         driver.findElement(By.id("childInput")).clear();
-        driver.findElement(By.id("childInput")).sendKeys("3");
+        driver.findElement(By.id("childInput")).sendKeys("1");
 
         driver.findElement(By.xpath("//button[text()=' Search']")).click();
 
