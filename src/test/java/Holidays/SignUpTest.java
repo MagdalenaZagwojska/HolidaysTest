@@ -12,7 +12,7 @@ public class SignUpTest {
     WebDriver driver;
 
     @Test
-    public void signUpTest()  {
+    public void signUp()  {
 
 
         driver = DriverFactory.getDriver();
