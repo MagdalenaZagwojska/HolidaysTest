@@ -15,7 +15,7 @@ public class NoHotelChoosenTest {
     WebDriver driver;
 
     @Test
-    public void noHotelChoosenTest()  {
+    public void noHotelChoosen()  {
 
 
         driver = DriverFactory.getDriver();
